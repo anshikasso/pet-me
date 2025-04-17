@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="pet.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PET ME!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>I was waiting for you🥹</h1>
+  <button onclick="changeImage()" style="font-size: 28px;position: absolute; top: 50%;
+  left: 25%; padding: 10px;
+  transform: translate(-50%, -50%);">Pet me (please)</button>
+  <img src="Untitled design (4).gif" class="responsive" id='image' srcset="" width="300" height="300" alt="Image" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+  <script>
+    function changeImage() {
+      const image = document.getElementById('image');
+      image.src = 'Untitled design (3).gif'; // Replace with the path to your new image
+    }
+  </script>
+</body>
+</html>
