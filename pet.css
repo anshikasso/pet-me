@@ -1,0 +1,20 @@
+body {
+  background-color: #c0e493;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  h1{
+    text-align: center;
+  }
+  button{
+    font: size 50px;
+    background-color: palegreen;
+    border-radius: 25px;
+    border-color: darkgreen;
+  font-family:  "Pixelify Sans", sans-serif;
+    text-align: center;
+  }
+}
